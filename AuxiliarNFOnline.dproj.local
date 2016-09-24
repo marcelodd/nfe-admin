@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/07/07 11:09:44.000.966,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/07 17:41:35.000.923,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/07/07 17:41:35.000.562,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/07/07 17:41:35.000.414,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/13 10:27:11.000.830,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/07/13 10:27:11.000.496,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/13 10:27:11.000.679,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/08/25 16:29:57.000.489,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/25 16:30:15.000.647,C:\Users\Marcelo\Documents\AuxiliarNFeOnline\Main.pas=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/25 16:30:15.000.647,C:\Users\Marcelo\Documents\AuxiliarNFeOnline\Main.dfm=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/08/25 16:30:18.000.149,C:\Users\Marcelo\Documents\AuxiliarNFeOnline\AuxiliarNFOnline.dproj=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
