@@ -2,15 +2,25 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2016/07/07 11:09:44.000.966,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2016/07/07 17:41:35.000.923,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
     <Transaction>2016/07/07 17:41:35.000.562,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/07/07 17:41:35.000.923,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
     <Transaction>2016/07/07 17:41:35.000.414,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2016/07/13 10:27:11.000.830,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
     <Transaction>2016/07/13 10:27:11.000.496,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2016/07/13 10:27:11.000.679,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/07/13 10:27:11.000.830,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
     <Transaction>2016/08/25 16:29:57.000.489,=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2016/08/25 16:30:15.000.647,C:\Users\Marcelo\Documents\AuxiliarNFeOnline\Main.pas=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2016/08/25 16:30:15.000.647,C:\Users\Marcelo\Documents\AuxiliarNFeOnline\Main.dfm=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2016/08/25 16:30:18.000.149,C:\Users\Marcelo\Documents\AuxiliarNFeOnline\AuxiliarNFOnline.dproj=C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/08/25 16:30:15.000.647,C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Marcelo\Documents\AuxiliarNFeOnline\Main.dfm</Transaction>
+    <Transaction>2016/08/25 16:30:15.000.647,C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Marcelo\Documents\AuxiliarNFeOnline\Main.pas</Transaction>
+    <Transaction>2016/08/25 16:30:18.000.149,C:\Users\Marcelo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Marcelo\Documents\AuxiliarNFeOnline\AuxiliarNFOnline.dproj</Transaction>
+    <Transaction>2016/09/24 14:20:02.259,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\PISCOFINS.csv</Transaction>
+    <Transaction>2016/09/24 15:12:21.708,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\IPI.csv</Transaction>
+    <Transaction>2016/09/24 15:26:08.728,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\ICMS.csv</Transaction>
+    <Transaction>2016/09/24 15:26:08.752,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\ICMSORIGEM.csv</Transaction>
+    <Transaction>2016/09/24 15:42:26.273,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\CFOP.csv</Transaction>
+    <Transaction>2016/09/24 15:42:26.292,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\TabelaCEST.csv</Transaction>
+    <Transaction>2016/09/24 15:42:26.315,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\TabelaIBPTaxSP.csv</Transaction>
+    <Transaction>2016/09/24 16:44:52.251,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\RELATORIO_DTB_BRASIL_MUNICIPIO.csv</Transaction>
+    <Transaction>2016/09/24 18:41:59.081,C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\RELATORIO_DTB_BRASIL_MUNICIPIO.csv=</Transaction>
+    <Transaction>2016/09/24 18:41:59.176,=C:\JCSISTEMAS\DelphiProjects\AuxiliarNFeOnline\CIDADES.csv</Transaction>
   </Transactions>
 </BorlandProject>

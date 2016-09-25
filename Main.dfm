@@ -1,116 +1,49 @@
 object MainForm: TMainForm
   Left = 0
   Top = 0
-  ClientHeight = 304
-  ClientWidth = 510
+  ClientHeight = 254
+  ClientWidth = 831
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Menu = MainMenu
   OldCreateOrder = False
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object cxProgressBar: TcxProgressBar
     Left = 0
-    Top = 283
+    Top = 233
     Align = alBottom
     TabOrder = 0
-    Width = 510
-  end
-  object cxGroupBox1: TcxGroupBox
-    AlignWithMargins = True
-    Left = 3
-    Top = 3
-    Align = alLeft
-    Caption = 'Importar CSV'
-    TabOrder = 1
-    Height = 277
-    Width = 113
-    object cxButton1: TcxButton
-      Left = 16
-      Top = 24
-      Width = 75
-      Height = 25
-      Caption = 'PIS CST'
-      TabOrder = 0
-    end
-    object cxButton2: TcxButton
-      Left = 16
-      Top = 55
-      Width = 75
-      Height = 25
-      Caption = 'COFINS CST'
-      TabOrder = 1
-    end
-    object cxButton3: TcxButton
-      Left = 16
-      Top = 86
-      Width = 75
-      Height = 25
-      Caption = 'IPI CST'
-      TabOrder = 2
-    end
-    object cxButton4: TcxButton
-      Left = 16
-      Top = 117
-      Width = 75
-      Height = 25
-      Caption = 'ICMS CST'
-      TabOrder = 3
-    end
-    object cxButton5: TcxButton
-      Left = 16
-      Top = 148
-      Width = 75
-      Height = 25
-      Caption = 'CIDADES'
-      TabOrder = 4
-    end
-    object cxButton6: TcxButton
-      Left = 16
-      Top = 179
-      Width = 75
-      Height = 25
-      Caption = 'NCM'
-      TabOrder = 5
-    end
-    object cxButton7: TcxButton
-      Left = 16
-      Top = 210
-      Width = 75
-      Height = 25
-      Caption = 'CFOP'
-      TabOrder = 6
-    end
-    object cxButton8: TcxButton
-      Left = 16
-      Top = 241
-      Width = 75
-      Height = 25
-      Caption = 'CEST'
-      TabOrder = 7
-    end
+    ExplicitTop = 283
+    ExplicitWidth = 510
+    Width = 831
   end
   object cxPageControl1: TcxPageControl
     AlignWithMargins = True
-    Left = 122
+    Left = 3
     Top = 3
-    Width = 385
-    Height = 277
+    Width = 825
+    Height = 227
     Align = alClient
-    TabOrder = 2
+    TabOrder = 1
     Properties.ActivePage = cxTabSheet1
     Properties.CustomButtons.Buttons = <>
-    ClientRectBottom = 273
+    ExplicitLeft = 35
+    ExplicitWidth = 513
+    ClientRectBottom = 223
     ClientRectLeft = 4
-    ClientRectRight = 381
+    ClientRectRight = 821
     ClientRectTop = 24
     object cxTabSheet1: TcxTabSheet
       Caption = 'Importa'#231#245'es de Testes'
       ImageIndex = 0
+      ExplicitWidth = 377
+      ExplicitHeight = 249
       object cxGroupBox2: TcxGroupBox
         AlignWithMargins = True
         Left = 3
@@ -118,8 +51,9 @@ object MainForm: TMainForm
         Align = alTop
         Caption = 'MySQL'
         TabOrder = 0
+        ExplicitWidth = 371
         Height = 102
-        Width = 371
+        Width = 811
         object cxLabel1: TcxLabel
           Left = 10
           Top = 50
@@ -180,6 +114,16 @@ object MainForm: TMainForm
           OnExit = MySQLServercxTextEditExit
           Width = 127
         end
+        object cxMemo1: TcxMemo
+          Left = 608
+          Top = 13
+          Lines.Strings = (
+            'cxMemo1')
+          Properties.ScrollBars = ssVertical
+          TabOrder = 9
+          Height = 89
+          Width = 203
+        end
       end
       object cxGroupBox3: TcxGroupBox
         AlignWithMargins = True
@@ -188,8 +132,9 @@ object MainForm: TMainForm
         Align = alTop
         Caption = 'Firebird'
         TabOrder = 1
+        ExplicitWidth = 371
         Height = 84
-        Width = 371
+        Width = 811
         object cxLabel4: TcxLabel
           Left = 10
           Top = 21
@@ -243,25 +188,82 @@ object MainForm: TMainForm
   object MySQLConnection: TFDConnection
     Params.Strings = (
       'DriverID=MySQL')
+    LoginPrompt = False
+    Transaction = MySQLTransaction
     BeforeConnect = MySQLConnectionBeforeConnect
-    Left = 72
-    Top = 80
+    Left = 296
+    Top = 8
   end
   object FirebirdConnection: TFDConnection
     Params.Strings = (
       'DriverID=FB'
       'User_Name=sysdba'
       'Password=masterkey')
+    LoginPrompt = False
     BeforeConnect = FirebirdConnectionBeforeConnect
-    Left = 64
-    Top = 24
+    Left = 232
+    Top = 8
   end
   object MySQLPhysMySQLDriverLink: TFDPhysMySQLDriverLink
-    Left = 72
-    Top = 128
+    Left = 104
+    Top = 32
   end
   object FirebirdPhysFBDriverLink: TFDPhysFBDriverLink
-    Left = 67
-    Top = 179
+    Left = 107
+    Top = 83
+  end
+  object MySQLQuery: TFDQuery
+    Connection = MySQLConnection
+    Left = 416
+    Top = 96
+  end
+  object MySQLTransaction: TFDTransaction
+    Connection = MySQLConnection
+    Left = 232
+    Top = 136
+  end
+  object MainMenu: TMainMenu
+    Left = 328
+    Top = 80
+    object ImportarCSV1: TMenuItem
+      Caption = 'Importar CSV'
+      object PISCOFINSCST1: TMenuItem
+        Caption = 'PIS/COFINS CST'
+        OnClick = PISCOFINSCST1Click
+      end
+      object IPICST1: TMenuItem
+        Caption = 'IPI CST'
+        OnClick = IPICST1Click
+      end
+      object ICMSORIGEM1: TMenuItem
+        Caption = 'ICMS ORIGEM'
+        OnClick = ICMSORIGEM1Click
+      end
+      object ICMSCST1: TMenuItem
+        Caption = 'ICMS CST'
+        OnClick = ICMSCST1Click
+      end
+      object CFOP1: TMenuItem
+        Caption = 'CFOP'
+        OnClick = CFOP1Click
+      end
+      object NCM1: TMenuItem
+        Caption = 'NCM'
+        OnClick = NCM1Click
+      end
+      object CEST1: TMenuItem
+        Caption = 'CEST'
+        OnClick = CEST1Click
+      end
+      object CIDADES1: TMenuItem
+        Caption = 'CIDADES'
+        OnClick = CIDADES1Click
+      end
+    end
+  end
+  object MySQL2Query: TFDQuery
+    Connection = MySQLConnection
+    Left = 416
+    Top = 48
   end
 end
